@@ -1,0 +1,40 @@
+.recipe{
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71,71,71);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    width: 40%;
+    flex-wrap: wrap;
+}
+
+.item-images{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.listings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+@media (max-width : 800px){
+    .recipe{
+        border-radius: 10px;
+        box-shadow: 0px 5px 20px rgb(71,71,71);
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background: white;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+  }
